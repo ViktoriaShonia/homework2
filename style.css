@@ -1,0 +1,143 @@
+body {
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.header {
+    display: flex;
+}
+.svg {
+    margin-left: auto;
+    margin-top: 10px;
+}
+.title {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    font-size: 25px;
+}
+.main {
+    background-color: rgb(234, 234, 234);
+}
+.line {
+    border-bottom: 1px solid black;
+    margin-top: 5px;
+    width: 100%;
+}
+.conference {
+    background-image: url(shared/conference.jpeg);
+    background-size: 100% 500px;
+    width: 100%;
+    height: 500px;
+}
+h1 {
+    margin: 0;
+}
+.text {
+    color: blue;
+
+}
+.texts {
+    position: absolute;
+    bottom: 30%;
+    margin-left: 10px;
+}
+.logospic {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+  
+  .logos-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+  }
+  
+  .logos {
+    width: 150px;
+    height: 150px;
+  }
+  
+  .logotext {
+    text-align: start;
+    margin-top: 20px;
+  }
+  .line2 {
+    border-bottom: 1px solid black;
+    margin-top: 5px;
+    width: 100%;
+  }
+  .contact {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .photo {
+    width: 572px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+  }
+  .register {
+    height: 400px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-align: start;
+  }
+
+li {
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+
+.send {
+    position: relative;
+    top: 130px;
+    left: 100px;
+}
+
+.feed {
+    margin-left: 18%;
+}
+input {
+    width: 200px;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+}
+
+.network {
+    width: 500px;
+    border-radius: 50%;
+}
+.click {
+    margin-top: 15px;
+    width: 75px;
+    height: 25px;
+    font-size: 17px;
+    cursor: pointer;
+}
+.fLogo {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 50%;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
